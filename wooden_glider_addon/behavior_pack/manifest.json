@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Wooden Glider - behavior pack",
+    "name": "Wooden Glider (behavior)",
+    "uuid": "d9a1b2c3-4e5f-6789-abcd-000000000001",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 16, 0]
+  },
+  "modules": [
+    {
+      "description": "Behavior module",
+      "type": "data",
+      "uuid": "e1f2d3c4-b5a6-7890-cdef-000000000002",
+      "version": [1, 0, 0]
+    }
+  ]
+}
