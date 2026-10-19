@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Zbawood - behavior pack",
+    "name": "Zbawood (behavior)",
+    "uuid": "b6f6d9e2-1a2b-4c3d-8e9f-111111111111",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 16, 0]
+  },
+  "modules": [
+    {
+      "description": "Behavior module",
+      "type": "data",
+      "uuid": "c7e7f8a9-2b3c-4d5e-9f0a-222222222222",
+      "version": [1, 0, 0]
+    }
+  ]
+}

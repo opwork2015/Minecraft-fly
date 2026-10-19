@@ -1,0 +1,16 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "zbawood:wooden_glider" },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "PPP",
+      "P P",
+      "P P"
+    ],
+    "key": {
+      "P": { "item": "minecraft:planks" }
+    },
+    "result": { "item": "zbawood:wooden_glider", "count": 1 }
+  }
+}

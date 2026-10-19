@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Zbawood - resource pack",
+    "name": "Zbawood (resources)",
+    "uuid": "d8f9a0b1-3c4d-5e6f-7a8b-333333333333",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 16, 0]
+  },
+  "modules": [
+    {
+      "description": "Resources",
+      "type": "resources",
+      "uuid": "e9f0a1b2-4c5d-6e7f-8a9b-444444444444",
+      "version": [1, 0, 0]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:item": {
+    "description": { "identifier": "zbawood:wooden_glider" },
+    "components": { "minecraft:icon": "textures/items/wooden_glider" }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "zbawood:wooden_glider",
+      "category": "Tools",
+      "is_experimental": false,
+      "register_to_creative_menu": false
+    },
+    "components": {
+      "minecraft:icon": "textures/items/wooden_glider",
+      "minecraft:max_stack_size": 1,
+      "minecraft:use_duration": 1,
+      "minecraft:on_use": {
+        "on_use": [
+          { "event": "zbawood:wooden_glider_use_event" }
+        ]
+      }
+    }
+  },
+  "events": {
+    "zbawood:wooden_glider_use_event": {
+      "sequence": [
+        {
+          "run_command": {
+            "command": "ability @s mayfly true"
+          }
+        },
+        {
+          "run_command": {
+            "command": "scoreboard players add @s glider_time 72000"
+          }
+        },
+        {
+          "run_command": {
+            "command": "tellraw @s {\\"rawtext\\":[{\\"text\\":\\"§aZbawood Glider: +1 hour of flight added.\\"}]}"
+          }
+        }
+      ]
+    }
+  }
+}
